@@ -25,3 +25,4 @@ For documentation, see how_to_use.md
 
 ## Things to do
 - [ ] Make more themes
+- [ ] Consider adding a button
