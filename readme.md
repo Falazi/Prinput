@@ -21,3 +21,4 @@ Do you like making simple command line programs, but it's difficult to share wit
 
 This library is client side so you can host it for free on somewhere like github pages.
 
+For documentation, see how_to_use.md
