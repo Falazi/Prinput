@@ -23,6 +23,9 @@ This library is client side so you can host it for free on somewhere like github
 
 For documentation, see how_to_use.md
 
+For more themes, see [Prinput Themes](https://github.com/Falazi/Prinput-Themes)
+
+
 ## Things to do
 - [ ] Make more themes
 - [ ] Consider adding a button
