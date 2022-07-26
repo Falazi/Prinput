@@ -1,6 +1,6 @@
 # Prinput
 
-![screenshot](./images/preview.webp)
+![screenshot](./images/preview2.webp)
 
 Printput is a Javascript library that lets you use javascript like you would a command line program.
 
