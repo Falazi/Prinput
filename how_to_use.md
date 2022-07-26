@@ -39,7 +39,7 @@ You can both print and get input at the same time by passing the text as a param
 
 
 # CSS
-The default browser css is crusty but don't worry i got u fam. I made a nice css stylesheet that makes it look like a command line but a little less scary. It is included in the repository.
+The default browser css is crusty but don't worry i got u fam. I made a nice css stylesheet that makes it look like a command line but a little less scary. It's what the screenshot of this library is using. It is included in the repository.
 
 I would like to make some more stylesheets too, like one that looks "modern" and a little less "command liney" so you can have a more conventional interface while still programming in a simple way.
 
