@@ -22,6 +22,13 @@ Now link to the downloaded library like this and put it between the body tags
 ```html
 <script src="prinput.js"></script>
 ```
+Alternatively, if you don't want to download the library you can link to a cdn
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Falazi/Prinput@main/prinput.js"></script>
+
+```
+
 For your own code you should make another javascript file and link it underneath the library file, just the same way as the previous code.
 
 
