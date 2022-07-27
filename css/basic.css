@@ -1,0 +1,109 @@
+
+:root {
+    --radius: 0.2rem;
+    --text-padding: 1rem;
+    --background-color: #ffffff;
+    --shadow-color: #bebebe;
+    --highlight-color: #ffffff;
+    --text-margin: 0.8rem;
+    --border-width: 0.1rem;
+    --color: #3b3b3b;
+    --border: thin solid #bdbdbd;
+    --border-radius: 0.5rem;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--color)
+
+}
+
+
+p {
+    margin-top: var(--text-margin);
+    margin-bottom: var(--text-margin);
+}
+
+
+body {
+    margin: auto;
+    max-width: 50rem;
+
+    background: var(--background-color);
+}
+
+input {
+    box-sizing: border-box;
+    margin-top: 1rem;
+    width: 87%;
+    padding-top: calc(var(--text-padding) / 2);
+    padding-left: calc(var(--text-padding));
+    padding-right: calc(var(--text-padding) / 2);
+    padding-bottom: calc(var(--text-padding) / 2);
+
+    border: var(--border);
+    border-radius: var(--border-radius)
+}
+
+button{
+    border-width: var(--border-width);
+    border-radius: 0.75rem;
+    margin-left: 1rem;
+    width: 5rem;
+    padding: calc(var(--text-padding) / 2);
+    background-color: white;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+button:hover{
+    filter: brightness(90%)
+}
+
+button:active{
+    filter: brightness(80%)
+}
+
+#interact{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  
+}
+
+#container {
+    position: relative;
+
+    
+    margin-top: 15vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#scrollbox {
+    /* using outline so it doesn't cut off scrollbar */
+    height: 50vh;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    border-radius: 0.5rem;
+    /*
+
+orig
+    background: var(--background-color);
+    box-shadow: 5px 5px 10px var(--shadow-color),
+        -5px -5px 10px var(--highlight-color);
+
+
+        */
+
+        border: thin solid #bdbdbd;
+
+    padding-top: var(--text-padding);
+    padding-left: var(--text-padding);
+    padding-bottom: var(--text-padding);
+    padding-right: calc(var(--text-padding) / 2);
+
+}
