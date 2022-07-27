@@ -21,6 +21,12 @@ This library is client side so you can host it for free on somewhere like github
 
 For documentation, see [how_to_use.md](how_to_use.md)
 
+### CDN Link
+https://cdn.jsdelivr.net/gh/Falazi/Prinput@main/prinput.js
+
+## Theming
+
+Included in this repository is a basic theme that should get you started.
 
 For more themes, see [Prinput Themes](https://github.com/Falazi/Prinput-Themes)
 
