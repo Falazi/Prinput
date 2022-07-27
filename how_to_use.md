@@ -1,6 +1,31 @@
 
 # How to use
-There are some differences between using this and an actual command line language, but it's not too different.
+
+## Setting up
+First you'll need to make a html file and give it some boilerplate. Here's an example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+Now link to the downloaded library like this and put it between the body tags
+```html
+<script src="prinput.js"></script>
+```
+For your own code you should make another javascript file and link it underneath the library file, just the same way as the previous code.
+
+
+## Writing code
 
 First you'll need to make an `async` function. This will be the function your code is called from. Don't worry if you don't know what `async` is. I suggest you name this function `main`
 
