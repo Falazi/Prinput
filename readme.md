@@ -30,3 +30,4 @@ For more themes, see [Prinput Themes](https://github.com/Falazi/Prinput-Themes)
 ## Things to do
 - [ ] Make more themes
 - [ ] Consider adding a button
+- [ ] add autoscroll
