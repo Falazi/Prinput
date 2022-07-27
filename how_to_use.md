@@ -25,7 +25,7 @@ Now link to the downloaded library like this and put it between the body tags
 Alternatively, if you don't want to download the library you can link to a cdn
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Falazi/Prinput@main/prinput.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Falazi/Prinput@main/prinput.min.js"></script>
 
 ```
 
