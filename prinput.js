@@ -1,7 +1,19 @@
+// creates container div
+var container = document.createElement('div');
+container.setAttribute("id", "container");
+document.body.appendChild(container)
+
+
 // creates scrollbar div
 var scrollbox = document.createElement('div');
 scrollbox.setAttribute("id", "scrollbox");
-document.body.appendChild(scrollbox)
+container.appendChild(scrollbox)
+
+// creates interact div
+var interact = document.createElement('div');
+interact.setAttribute("id", "interact");
+container.appendChild(interact)
+
 
 // creates input box
 const inputel = document.createElement("input");
@@ -9,7 +21,14 @@ inputel.setAttribute("type", "text");
 inputel.setAttribute("autocomplete", "off");
 inputel.setAttribute('id', 'input');
 
-document.body.appendChild(inputel)
+interact.appendChild(inputel)
+
+// creates button
+const btn = document.createElement("button")
+btn.innerHTML = "Enter";
+btn.setAttribute("type", "button");
+btn.setAttribute('id', 'button');
+interact.appendChild(btn)
 
 
 function finish() {
@@ -23,6 +42,9 @@ function prinPrint(text) {
     const para = document.createElement("p");
     para.innerHTML = text;
     document.getElementById("scrollbox").appendChild(para)
+
+    document.getElementById('scrollbox').scrollTop = 9999999;
+
 
 }
 
@@ -50,20 +72,31 @@ function waitingKeypress() {
 
     // i dont really understand promises I just frankensteined this together from code I found
     // It works great though
+
     return new Promise((resolve) => {
         document.querySelector('#input').addEventListener('keypress', function (e) {
             if (e.keyCode === 13) {
                 // document.removeEventListener('keypress', onKeyHandler);
                 resolve();
             }
+            else{
+                // also waits for button click
+                button.addEventListener("click", function() {
+                    resolve()
+                  });                  
+            }
         }
         )
     });
+
+
+
+
 }
 
 
 async function input(text) {
-    if (text != null){print(text)}
+    if (text != null) { print(text) }
     // wait for keypress before continuing 
     await waitingKeypress();
 
