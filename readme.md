@@ -2,7 +2,7 @@
 
 Printput is a Javascript library that lets you use javascript like you would a command line program.
 
-[![basic theme](basic.png)]
+![basic theme](images/basic.png)
 
 ## Why use this library
 
