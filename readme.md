@@ -1,8 +1,8 @@
 # Prinput
 
-Printput is a Javascript library that lets you use javascript like you would a command line program.
-
 ![basic theme](images/basic.png)
+
+Printput is a Javascript library that lets you use javascript like you would a command line program.
 
 ## Why use this library
 
