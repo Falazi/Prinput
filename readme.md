@@ -43,4 +43,4 @@ For more themes, see [Prinput Themes](https://github.com/Falazi/Prinput-Themes)
 
 | Unminified | Minified | Minified and Gzipped |
 |------------|----------|----------------------|
-| 2.80KB     | 1.30KB   | 540B                 |
+| 2.80 KB    | 1.30 KB  | 540 B                |
