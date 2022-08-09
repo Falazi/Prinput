@@ -41,6 +41,6 @@ For more themes, see [Prinput Themes](https://github.com/Falazi/Prinput-Themes)
 
 ## Filesize
 
-| Unminified | Minified | Minified and Gzipped |
+| Unminified | Minified | Minified & Gzipped   |
 |------------|----------|----------------------|
 | 2.80 KB    | 1.30 KB  | 540 B                |
