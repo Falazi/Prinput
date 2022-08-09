@@ -46,7 +46,7 @@ main()
 Now just put your prints inside `main()`
 
 ```js
-function async main(){
+async function main(){
     print("hi")
 }
 
